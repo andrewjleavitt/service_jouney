@@ -38,6 +38,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
   gem 'rspec-rails'
+  gem 'rspec_junit_formatter'
   gem 'capybara'
   gem 'selenium-webdriver'
   gem 'factory_bot_rails'
