@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  resources :journals, only: [:index]
+  resources :journals, only: [:index, :new, :create]
 end

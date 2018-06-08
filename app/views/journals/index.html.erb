@@ -1,1 +1,9 @@
 <h1>Journals Home</h1>
+
+<%= link_to "Create Journal", new_journal_url %>
+
+<ul>
+  <% @journals.each do |journal| %>
+    <li><%= journal.name %></li>
+  <% end %>
+</ul>

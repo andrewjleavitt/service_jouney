@@ -10,6 +10,9 @@
   </head>
 
   <body>
+    <% if flash.notice != nil %>
+      <div class="notice"%><%= flash.notice %></div>
+    <% end %>
     <%= yield %>
   </body>
 </html>
